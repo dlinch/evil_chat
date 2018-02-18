@@ -1,3 +1,3 @@
-import './application.css'
+import "./application.css";
 
-document.body.insertAdjacentHTML('afterbegin', 'Webpacker is the tits.!');
+document.body.insertAdjacentHTML("afterbegin", "Webpacker is the tits.!");
