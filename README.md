@@ -1,24 +1,19 @@
-# README
+# Evil Chat
+Based on the Evil Martians tutorial. [tutorial](https://evilmartians.com/chronicles/evil-front-part-1)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Purpose
+I wanted to see how Evil Martians suggested integrated a modern component-based JavaScript infrastructure into a Rails application. Also, I haven't played with ActionCable before either so that was pretty neat.
 
-Things you may want to cover:
+### Setup 
+Global dependencies: Yarn, Postgres, Ruby >= 2.4.0, Node >= 9.4.0
 
-* Ruby version
+To run the application, pull down, cd into the project.
 
-* System dependencies
+run `bundle install && yarn install && rake db:create db:migrate`
 
-* Configuration
+run `yarn global add hivemind`
 
-* Database creation
+### Run the Project
+From the command line, run `hivemind` in order to spin the project up in development mode.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Visit localhost:5000 to see the application running.
